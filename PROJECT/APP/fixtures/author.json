@@ -1,0 +1,26 @@
+[
+{
+    "model": "APP.author",
+    "pk": 1,
+    "fields": {
+        "name": "William Shakespeare",
+        "address": "1801 24 Street, New Jersy"
+    }
+},
+{
+    "model": "APP.author",
+    "pk": 2,
+    "fields": {
+        "name": "Agatha Christie",
+        "address": "343 2 Street, NY"
+    }
+},
+{
+    "model": "APP.author",
+    "pk": 3,
+    "fields": {
+        "name": "Barbara Cartland",
+        "address": "88, 34 ST,   NY"
+    }
+}
+]

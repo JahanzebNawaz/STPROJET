@@ -1,0 +1,41 @@
+[
+{
+    "model": "APP.book",
+    "pk": 1,
+    "fields": {
+        "title": "Software Requirements: Styles & Techniques",
+        "description": "Writing a good requirements specification doesn't take more time. This book shows how it's done--many times faster and many times smarter. For aspiring students with IT careers. Softcover.",
+        "count": 20,
+        "subscription_cost": 10,
+        "author": [
+            1
+        ]
+    }
+},
+{
+    "model": "APP.book",
+    "pk": 2,
+    "fields": {
+        "title": "The Psychology of Money: Timeless lessons on wealt",
+        "description": "Doing well with money isn’t necessarily about what you know. It’s about how you behave. And behavior is hard to teach, even to really smart people. Money—investing, personal finance, and business decisions—is typically taught as a math-based field, where data and formulas tell us exactly what to do.",
+        "count": 25,
+        "subscription_cost": 5,
+        "author": [
+            2
+        ]
+    }
+},
+{
+    "model": "APP.book",
+    "pk": 3,
+    "fields": {
+        "title": "Smart Thinking: Skills for Critical Understanding",
+        "description": "Smart Thinking: Skills for Critical Understanding and Writing 2E is a practical step-by-step guide to improving skills in analysis, critical thinking, and the effective communication of arguments and explanations. The book combines an accessible and straightforward style, with a strong foundation of knowledge.",
+        "count": 30,
+        "subscription_cost": 12,
+        "author": [
+            3
+        ]
+    }
+}
+]

@@ -1,0 +1,38 @@
+[
+{
+    "model": "APP.subscription",
+    "pk": 1,
+    "fields": {
+        "subscriber": 1,
+        "book": 1,
+        "borrowed_date": "2022-03-11",
+        "amount_paid": 10,
+        "days": 1,
+        "returned": false
+    }
+},
+{
+    "model": "APP.subscription",
+    "pk": 2,
+    "fields": {
+        "subscriber": 2,
+        "book": 2,
+        "borrowed_date": "2022-03-11",
+        "amount_paid": 25,
+        "days": 5,
+        "returned": false
+    }
+},
+{
+    "model": "APP.subscription",
+    "pk": 3,
+    "fields": {
+        "subscriber": 3,
+        "book": 3,
+        "borrowed_date": "2022-03-11",
+        "amount_paid": 120,
+        "days": 10,
+        "returned": false
+    }
+}
+]
