@@ -18,7 +18,7 @@ class UserTests(BaseTest):
 
     def test_update_user(self):
         user = User.objects.last()
-        self.assertEqual(user.id, 7)
+        self.assertEqual(user.id, 5)
         user.first_name = 'test'
         user.save()
         user = User.objects.last()
