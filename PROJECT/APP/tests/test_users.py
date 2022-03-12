@@ -2,7 +2,7 @@ from .base import BaseTest
 from django.contrib.auth.models import User
 
 
-class UserTests(BaseTest):
+class TestsUser(BaseTest):
 
     def test_create_new_user(self):
         user_id = User.objects.last().id
