@@ -24,3 +24,13 @@ class UserTests(BaseTest):
         user = User.objects.last()
         self.assertEqual(user.first_name, 'test')
 
+    def test_get_user(self):
+        user = User.objects.get(username='james')
+        self.assertEqual(user.username, 'james')
+        self.assertEqual(user.id, 4)
+        self.assertEqual(user.first_name, 'james')
+
+    def test_delete_user(self):
+        User.objects.get(username='james').delete()
+        user = User.objects.filter(username='james').exists()
+        self.assertEqual(user, False)
