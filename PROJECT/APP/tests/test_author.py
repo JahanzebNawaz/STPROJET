@@ -35,6 +35,6 @@ class TestAuthors(BaseTest):
         author = Author.objects.last()
         self.assertEqual(author.id, 2)
 
-    def assert_check_author(self, count):
-        author = Author.objects.count()
-        self.assertEqual(author, count)
+    # def assert_check_author(self, count):
+    #     author = Author.objects.count()
+    #     self.assertEqual(author, count)
