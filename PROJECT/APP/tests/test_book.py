@@ -52,7 +52,7 @@ class TestBook(BaseTest):
         )
         book.author.set(author)
         book.save()
-        return
+        return book
 
     def assert_check_book(self, count):
         book = Book.objects.count()
