@@ -56,7 +56,3 @@ class TestSubscription(BaseTest):
             returned=False
         )
         return subscription
-
-    def assert_check_subscription(self, count):
-        subscription = Subscription.objects.count()
-        self.assertEqual(subscription, count)
