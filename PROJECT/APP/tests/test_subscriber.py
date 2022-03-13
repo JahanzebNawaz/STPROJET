@@ -11,7 +11,7 @@ class TestSubscriber(BaseTest):
 
     def test_add_new_subscriber(self):
         self.assert_check_subscriber(3)
-        new_subscriber = self.add_new_subscriber()
+       # new_subscriber = self.add_new_subscriber()
         self.assert_check_subscriber(4)
         subscriber = Subscriber.objects.last()
         self.assertEqual(subscriber.user.username, new_subscriber.user.username)
