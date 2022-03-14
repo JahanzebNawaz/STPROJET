@@ -55,7 +55,7 @@ Now move inside the project directy if you are using CMD.
 We need to install all the dependent libraries we have used in the project for that we need to run this command. this will install `selenium` as well. `requirements.txt` file contains all the list of libraries and versions of libraries we have used.
 
 
-    pip install -r requirements.text
+    pip install -r requirements.txt
 
 
 OUTPUT:
